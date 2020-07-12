@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".registration">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:text="@string/username"
+                    android:textColor="#E8E8E8"
+                    android:textSize="36sp"
+                    android:layout_gravity="start"/>
+
+                <EditText
+                    android:id="@+id/enter_user_name"
+                    android:textCursorDrawable="@drawable/custom_cursor"
+                    android:textColor="#E8E8E8"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/password"
+                    android:textSize="36sp"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:textColor="#E8E8E8"
+                    android:layout_gravity="start"/>
+
+                <EditText
+                    android:id="@+id/enter_password"
+                    android:textCursorDrawable="@drawable/custom_cursor"
+                    android:textColor="#E8E8E8"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="17.5dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/email_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:text="@string/email_id"
+                    android:textSize="36sp"
+                    android:textColor="#E8E8E8"
+                    android:layout_gravity="start"/>
+
+                <EditText
+                    android:id="@+id/enter_email_id"
+                    android:textCursorDrawable="@drawable/custom_cursor"
+                    android:textColor="#E8E8E8"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="87dp"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/phone_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_number"
+                    android:textSize="36sp"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:textColor="#E8E8E8"
+                    android:layout_gravity="start"/>
+
+                <EditText
+                    android:id="@+id/enter_phone_number"
+                    android:textCursorDrawable="@drawable/custom_cursor"
+                    android:textColor="#E8E8E8"
+                    android:fontFamily="@font/sofia_pro_bold"
+                    android:layout_width="144dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16.5dp"
+                    android:inputType="phone"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp">
+
+            <Button
+                android:id="@+id/registerbutton"
+                android:background="@drawable/round_button"
+                android:layout_width="180dp"
+                android:layout_centerInParent="true"
+                android:layout_height="wrap_content"
+                android:text="@string/register"
+                android:fontFamily="@font/sofia_pro_bold"
+                android:textColor="#FDFDFD" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
