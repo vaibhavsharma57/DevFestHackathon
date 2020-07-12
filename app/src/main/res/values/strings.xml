@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">baby_yoda</string>
+    <string name="app_name">Bliss</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -9,6 +9,14 @@
     <string name="phone_number">Phone no.</string>
     <string name="register">Register</string>
     <string name="login">Login</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="calculate">Calculate</string>
+    <string name="activity">Activity</string>
     <string name="bmi_count"><![CDATA[Underweight = <18.5 Normal weight = 18.5–24.9 Overweight = 25–29.9 Obesity = BMI of 30 or greater]]></string>
     <string-array name="activities">
         <item>Basal Metabolic Rate(BMR)</item>
